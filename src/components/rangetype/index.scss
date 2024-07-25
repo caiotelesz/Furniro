@@ -1,7 +1,21 @@
 .rangeType {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+
   img {
     width: 23.81rem;
     height: 30rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--quaternary-color);
   }
 }

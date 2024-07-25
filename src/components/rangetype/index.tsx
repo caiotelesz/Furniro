@@ -1,10 +1,15 @@
 import './index.scss';
 
-export function RangeType() {
+interface RangeTypeProp {
+  img: string;
+  title: string;
+}
+
+export function RangeType({img, title}: RangeTypeProp) {
   return (
     <div className='rangeType'>
-      <img src="/assets/img-dining.png" alt="" />
-      <h3>Dining</h3>
+      <img src={img} alt="" />
+      <h3>{title}</h3>
     </div>
   )
 }

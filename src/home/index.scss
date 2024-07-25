@@ -53,23 +53,26 @@
     max-width: 1500px;
     padding: 20px 0px;
 
-    div {
+    .card1_section2 {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
 
       h1 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        color: var(--quaternary-color);
       }
       p {
         font-size: 1.2rem;
         color: var(--tertiary-color);
+        margin-bottom: 50px; 
       }
 
-      > div {
+      div {
         display: flex;
-        flex-direction: column;
+        gap: 1.25rem;
       }
     }
   }

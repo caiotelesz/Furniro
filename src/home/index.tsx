@@ -19,14 +19,14 @@ export function Home() {
       </section>
 
       <section className='section2-home'>
-        <div>
+        <div className='card1_section2'>
           <h1>Browse The Range</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
           <div>
-            <RangeType />
-            <RangeType />
-            <RangeType />
+            <RangeType img="/assets/img-dining.png" title="Dining" />
+            <RangeType img="/assets/img-living.png" title="Living" />
+            <RangeType img="/assets/img-bedroom.png"  title="Bedroom" />
           </div>
         </div>
       </section>
