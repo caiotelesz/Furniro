@@ -1,0 +1,68 @@
+.products {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 280px;
+
+  img {
+    width: 17.81rem;
+    height: 18.81rem;
+  }
+
+  .badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    min-width: 35px;
+    min-height: 35px;
+
+    &.discount {
+      background-color: #e97171;
+    }
+
+    &.new {
+      background-color: #2ec1ac;
+    }
+  }
+
+  .card-products {
+    background-color: var(--product-bg-color);
+    padding: 10px;
+
+    h2, h3, p, span { background-color: transparent; }
+
+    h2, p {
+      color: var(--product-primary-color);
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    h3, span {
+      color: var(--product-secondary-color);
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    > div {
+      background-color: transparent;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+
+      p {
+        font-size: 1.25rem;
+      }
+
+      span {
+        font-weight: 300;
+        text-decoration: line-through;
+      }
+    }
+  }
+}

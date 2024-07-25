@@ -1,4 +1,5 @@
 import { Header } from '../components/header';
+import { Product } from '../components/Product';
 import { RangeType } from '../components/rangetype';
 import './index.scss';
 
@@ -27,6 +28,77 @@ export function Home() {
             <RangeType img="/assets/img-dining.png" title="Dining" />
             <RangeType img="/assets/img-living.png" title="Living" />
             <RangeType img="/assets/img-bedroom.png"  title="Bedroom" />
+          </div>
+        </div>
+      </section>
+
+      <section className='section3-home'>
+        <div className='card1_section3'>
+          <h1>Our Products</h1>
+
+          <div>
+            <Product
+              img="/assets/products/syltherine.png"
+              name="Syltherine"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              originalPrice="Rp 3.500.000"
+              discount="-30%"
+            />
+            <Product
+              img="/assets/products/syltherine.png"
+              name="Syltherine"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              originalPrice="Rp 3.500.000"
+              discount="-30%"
+            />
+            <Product
+              img="/assets/products/syltherine.png"
+              name="Syltherine"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              originalPrice="Rp 3.500.000"
+              discount="-30%"
+            />
+            <Product
+              img="/assets/products/leviosa.png"
+              name="Leviosa"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              isNew
+            />
+            <Product
+              img="/assets/products/syltherine.png"
+              name="Syltherine"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              originalPrice="Rp 3.500.000"
+              discount="-30%"
+            />
+            <Product
+              img="/assets/products/syltherine.png"
+              name="Syltherine"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              originalPrice="Rp 3.500.000"
+              discount="-30%"
+            />
+            <Product
+              img="/assets/products/syltherine.png"
+              name="Syltherine"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              originalPrice="Rp 3.500.000"
+              discount="-30%"
+            />
+            <Product
+              img="/assets/products/leviosa.png"
+              name="Leviosa"
+              description="Stylish cafe chair"
+              currentPrice="Rp 2.500.000"
+              isNew
+            />  
           </div>
         </div>
       </section>
