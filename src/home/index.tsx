@@ -15,7 +15,7 @@ export function Home() {
           <h1>New Arrival</h1>
           <h2>Discover Our <br /> New Collection</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br /> elit tellus, luctus nec ullamcorper mattis.</p>
-          <a>BUY NOW</a>
+          <a href='#'>BUY NOW</a>
         </div>
       </section>
 
